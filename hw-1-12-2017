@@ -24,4 +24,8 @@ ls Reading Comprehension
 Exploring More ls Arguments
 When ls is used with -l you will see a list of file names and their size, date and time of modification. When ls is used wtih -h you will see more easily understandable file sizes, such as 4.0K instead of 4096. 
 
+Listing Recursively and By Time
+ls -Rt displays the files in alphabetical order and by when they were modified. 
+
+
 
