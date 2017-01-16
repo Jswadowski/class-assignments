@@ -15,4 +15,10 @@ Relative Path Resolution
 3. no
 4. yes, because from /Users/thing .. will take you a step back to Users and /backup will move you ahead into the folder backup which contains original pnas_final and pnas_sub. 
 
+ls Reading Comprehension
+1. no
+2. yes because we are already in the /Users/backup directory
+3. yes this is an absolute path approach
+4. yes
+
 
