@@ -21,4 +21,7 @@ ls Reading Comprehension
 3. yes this is an absolute path approach
 4. yes
 
+Exploring More ls Arguments
+When ls is used with -l you will see a list of file names and their size, date and time of modification. When ls is used wtih -h you will see more easily understandable file sizes, such as 4.0K instead of 4096. 
+
 
