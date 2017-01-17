@@ -1,1 +1,11 @@
 I will put my fun in-class work here.
+.
+..
+badly named file.txt
+classwork-Tues-1-17.txt
+.config
+.git
+hw-1-12-2017
+README.txt
+temp.txt
+thurs-1-12-2017
