@@ -1,3 +1,76 @@
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
+ 1265  gedit classwork-Tues-1-24.txt
+ 1266  git add classwork-Tues-1-24.txt 
+ 1267  git commit -m "work for tuesday 1/24"
+ 1268  git push
+ 1269  cd ~/Desktop/CSB
+ 1270  cd unix
+ 1271  cd sandbox/
+ 1272  wget http://tinyurl.com/cep-taxa -0 cep-taxa.txt
+ 1273  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+ 1274  less cep-taxa.txt 
+ 1275  grep -w "Orchidaceae cep-taxa.txt
+ 1276  grep Orchidacea cep-taxa.txt
+ 1277  grep Orchidacea cep-taxa.txt | -l
+ 1278  grep Orchidacea cep-taxa.txt -l
+ 1279  grep Orchidacea cep-taxa.txt -c
+ 1280  grep -c Orchidacea cep-taxa.txt 
+ 1281  grep -n Orchidacea cep-taxa.txt 
+ 1282  grep -l Orchidacea cep-taxa.txt 
+ 1283  grep falcon cep-taxa.txt 
+ 1284  grep Falcon cep-taxa.txt 
+ 1285  grep Falcon -i cep-taxa.txt 
+ 1286  grep Falcon -i -n  cep-taxa.txt 
+ 1287  grep -i ara cep-taxa.txt 
+ 1288  grep -i -w ara cep-taxa.txt 
+ 1289  grep -B 3 Cebus cep-taxa.txt 
+ 1290* 
+ 1291  grep -n -i -w iguana cep-taxa.txt 
+ 1292  grep -v -w -i ara cep-taxa.txt 
+ 1293  grep -v -w -i -c ara cep-taxa.txt 
+ 1294  grep -v -c ara cep-taxa.txt 
+ 1295* 
+ 1296  grep -v -c ara cep-taxa.txt >> non-macaws.txt
+ 1297  ls
+ 1298  ls -l
+ 1299  find .*
+ 1300  ls -la
+ 1301  ls -a
+ 1302  emacs script.sh
+ 1303  find ../data
+ 1304  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/data
+ 1305  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/data/
+ 1306  find -c ../data
+ 1307  find ../data -c
+ 1308  find ../data/ | wc -l
+ 1309  find ../data/ -name "n30.txt"
+ 1310  find ~/ -name "n30.txt"
+ 1311  find ~/Desktop -name "n30.txt"
+ 1312  find ~/Desktop/CSB/unix/ -iname "*about*"
+ 1313  find ~/Desktop/eeb-177/ -iname "*classwork*"
+ 1314  find ~/Desktop/eeb-177/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+ 1315  cd ~/Desktop
+ 1316  cd eeb-177/
+ 1317  cd class-assignments/
+ 1318  git add "classwork-Tues-1-24.txt" 
+ 1319  git commit -m "appended all classworks"
+ 1320  git push
+ 1321  ls -l
+ 1322  cd ~/Desktop
+ 1323  cd unix
+ 1324  cd CSB
+ 1325  cd uni
+ 1326  cd unix
+ 1327  cd sandbox
+ 1328  touch permissions.txt
+ 1329  ls -l
+ 1330  chmod u=rwx permissions.txt
+ 1331  ls -l
+ 1332  chmod g+w, u+x permissions.txt
+ 1333  cd ~/Desktop
+ 1334  cd eeb-177/
+ 1335  cd class-assignments/
+ 1336  history
+ 1337  history 73 >> classwork-Tues-1-24.txt 
