@@ -1,0 +1,48 @@
+---
+title: "classwork-Tues-3-7"
+author: "Jeremy Wadowski"
+date: "March 7, 2017"
+output: html_document
+---
+```{r}
+library(paleotree)
+library(paleobioDB)
+
+#canids<-pbdb_occurrences(limit="all", vocab="pbdb", base_name="Canidae", show=c "phylo, "_ident")
+
+
+data(graptPBDB)
+head(graptOccPBDB)
+
+occSpecies<- taxonSortPBDBocc(graptOccPBDB, rank="species")
+
+#plot species occurrences
+plotOccData(occSpecies,groupLabel = "Species")
+
+head(occSpecies)
+```
+## Now lets look at the diversity through time for various ranks  
+```{r}
+#convert occurrence data to "timelist" format
+graptTimeSpecies<- occData2timeList(occList=occSpecies)
+#head(graptTimeSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+graptTimeGenus<- occData2timeList(occList=occGenera)
+graptTimeFamily<- occData2timeList(occList=occFamily)
+
+
+layout(1:3)
+taxicDivDisc(graptTimeSpeces)
+taxicDivDisc(graptTimeGenus)
+taxicDivDisc(graptTimeFamily)
+
+pdf(file="dtt.pdf")
+taxicDivDisc(graptTimeSpeces)
+taxicDivDisc(graptTimeGenus)
+taxicDivDisc(graptTimeFamily)
+dev.off()
+```
+
+
+
